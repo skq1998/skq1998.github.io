@@ -4,7 +4,7 @@ site_url: https://skq1998.github.io/ # Change this to your site URL
 
 theme:
     name: 'material'
-    logo: assets/meta/favicons.png
+    logo: assets/meta/logo.png
     favicon: assets/meta/favicons.png
     custom_dir: overrides
     font:

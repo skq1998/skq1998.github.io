@@ -8,7 +8,7 @@ title: 个人主页
 
 ## Daily Arxiv (Physics)
 
-> [主页怎么能少了 Arxiv](https://skq1998.github.io/MyArxiv/)
+> [主页怎么能少了 Arxiv](https://skq1998.github.io/MyArxiv)
 
 ## 数理小文章
 

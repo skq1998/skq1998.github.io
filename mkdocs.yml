@@ -1,6 +1,6 @@
 site_name: skq's page # Change this to your site name
 site_description: Phy & CS
-site_url: https://skq1998.github.io/ # Change this to your site URL
+site_url: https://www.ustc-skq.cn/ # Change this to your site URL
 
 theme:
     name: 'material'

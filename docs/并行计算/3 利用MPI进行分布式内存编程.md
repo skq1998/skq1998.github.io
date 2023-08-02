@@ -10,9 +10,9 @@ category: 并行计算
 - 共享内存系统
 
 从程序员角度来看, 分布式系统由网络连接的核 - 内存对的集合组成, 与核相关联的内存只能由该核访问, 如下图
-![500](../3ced74545cadcb5a3bdf33d900621e96_MD5.png)
+![500](../assets/img/3ced74545cadcb5a3bdf33d900621e96_MD5.png)
 共享内存系统由核的集合组成，所有核都连接到一个全局访问的内存, 且每个核可以访问内存的任意位置, 如下图
-![500](../00c511dd65e5713122e44e8bd407a3b9_MD5.png)
+![500](../assets/img/00c511dd65e5713122e44e8bd407a3b9_MD5.png)
 
 ## 1 分布式内存系统
 
@@ -186,7 +186,7 @@ int MPI_Send(
 
 >C 语言中的类型（`int`、`char` 等）不能作为参数传递给函数，所以 MPI 定义了一个特殊类型：`MPI_Datetype`
 
-![ecccdcb10111a56e443ff73e210f46ce_MD5](../ecccdcb10111a56e443ff73e210f46ce_MD5.png)
+![ecccdcb10111a56e443ff73e210f46ce_MD5](../assets/img/ecccdcb10111a56e443ff73e210f46ce_MD5.png)
 
 ### 2.8 MPI_Recv
 

@@ -1,8 +1,6 @@
 ---
 template: blog.html
-title: Folder Index
+title: 目录
 ---
 
 ![](./assets/img/index_image_1.png)
-
-凡人终有一死！

@@ -14,7 +14,7 @@ category: 使用记录/MacOS
 
 从 iBook 中拖出图书到桌面，拖出来的其实是一个文件夹，后缀名为 `.epub`
 
-![image_1_20230812164056.gif](../../assets/img/image_1_20230812164056.gif)
+![475](../../assets/img/image_1_20230812164056.gif)
 
 在终端中进入该文件夹
 

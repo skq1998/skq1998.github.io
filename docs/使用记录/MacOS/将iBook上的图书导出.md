@@ -25,7 +25,7 @@ cd ~/Desktop/filename.epub
 执行下面的命令
 
 ```shell
-zip -0Xq  filename.epub mimetype
+zip -0Xq filename.epub mimetype
 zip -Xr9Dq filename.epub *
 ```
 

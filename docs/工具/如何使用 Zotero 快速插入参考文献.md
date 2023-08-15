@@ -3,6 +3,12 @@ share: true
 category: 工具
 ---
 
+## 前情提要
+
+> 目前 zotero7 正式版即将面世，将会带来更好的性能和更实用的功能，但是目前大量的插件需要适配。
+
+---
+
 > 参考资料
 > -  [Zutilo的高级扩展使用 Quick Copy alt1 alt2\_magefreehome的博客-CSDN博客](https://blog.csdn.net/magefreehome/article/details/118051991)
 > - [[Zotero]如何在Word中插入参考文献 - 知乎](https://zhuanlan.zhihu.com/p/62931860)
@@ -30,4 +36,3 @@ category: 工具
 ## 如何在 Word 中使用
 
 > 先谈谈 Word 吧，因为我总觉得 Word 用户比 Latex 更多
-

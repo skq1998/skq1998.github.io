@@ -7,6 +7,6 @@ jobs:
   update:
     uses: ObsidianPublisher/actions/.github/workflows/update.yml@main
     with:
-      AUTO_MERGE: true
+      AUTO_MERGE: false
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}

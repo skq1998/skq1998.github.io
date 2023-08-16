@@ -4,13 +4,9 @@ on:
   schedule:
     - cron: '0 1 15 * *'
 jobs:
-  steps:
-    uses: actions/checkout@v3
-    with:
-      fetch-depth: 0
   update:
     uses: ObsidianPublisher/actions/.github/workflows/update.yml@main
     with:
-      AUTO_MERGE: false
+      AUTO_MERGE: true
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}

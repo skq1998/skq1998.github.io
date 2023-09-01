@@ -12,11 +12,11 @@ category: 并行计算
 
 从程序员角度来看, 分布式系统由网络连接的核 - 内存对的集合组成, 与核相关联的内存只能由该核访问, 如下图
 
-![500](2%E5%88%A9%E7%94%A8MPI%E8%BF%9B%E8%A1%8C%E5%88%86%E5%B8%83%E5%BC%8F%E5%86%85%E5%AD%98%E7%BC%96%E7%A8%8B_image_1.png)
+![500](../assets/img/2%E5%88%A9%E7%94%A8MPI%E8%BF%9B%E8%A1%8C%E5%88%86%E5%B8%83%E5%BC%8F%E5%86%85%E5%AD%98%E7%BC%96%E7%A8%8B_image_1.png)
 
 共享内存系统由核的集合组成，所有核都连接到一个全局访问的内存, 且每个核可以访问内存的任意位置, 如下图
 
-![500](2%E5%88%A9%E7%94%A8MPI%E8%BF%9B%E8%A1%8C%E5%88%86%E5%B8%83%E5%BC%8F%E5%86%85%E5%AD%98%E7%BC%96%E7%A8%8B_image_2.png)
+![500](../assets/img/2%E5%88%A9%E7%94%A8MPI%E8%BF%9B%E8%A1%8C%E5%88%86%E5%B8%83%E5%BC%8F%E5%86%85%E5%AD%98%E7%BC%96%E7%A8%8B_image_2.png)
 
 ## 1 分布式内存系统
 
@@ -190,7 +190,7 @@ int MPI_Send(
 
 > C 语言中的类型（`int`、`char` 等）不能作为参数传递给函数，所以 MPI 定义了一个特殊类型：`MPI_Datetype`
 
-![2利用MPI进行分布式内存编程_image_3.png](2%E5%88%A9%E7%94%A8MPI%E8%BF%9B%E8%A1%8C%E5%88%86%E5%B8%83%E5%BC%8F%E5%86%85%E5%AD%98%E7%BC%96%E7%A8%8B_image_3.png)
+![2利用MPI进行分布式内存编程_image_3.png](../assets/img/2%E5%88%A9%E7%94%A8MPI%E8%BF%9B%E8%A1%8C%E5%88%86%E5%B8%83%E5%BC%8F%E5%86%85%E5%AD%98%E7%BC%96%E7%A8%8B_image_3.png)
 
 ### 2.8 MPI_Recv
 

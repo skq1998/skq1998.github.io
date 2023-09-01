@@ -22,7 +22,7 @@ category: 随笔/算法
 
 > 参考自：[Matlab和Python产生任意指定分布的随机数 - 知乎](https://zhuanlan.zhihu.com/p/405066589)
 
-![500](../../assets/img/Metropolis-Hastings algorithm_image_1.png)
+![500](../../assets/img/Metropolis-Hastings%20algorithm_image_1.png)
 
 直接抽样算法的困难：
 - 许多随机变量的累积分布函数无法用解析函数给出
@@ -45,7 +45,7 @@ $$
 
 ### 几何解释
 
-![500](../../assets/img/Metropolis-Hastings algorithm_image_2.webp)
+![500](../../assets/img/Metropolis-Hastings%20algorithm_image_2.webp)
 
 - 在二维图上，随机选取位于矩形 $abed$ 内的点 $(x,y)$
 - 选取位于曲线 $f(x)$ 下的那些点，则这些点将服从概率密度为 $f(x)$ 的分布
@@ -92,11 +92,11 @@ $$
 
 一个思路便是：利用与目标分布接近的分布来舍选
 
-![475](../../assets/img/Metropolis-Hastings algorithm_image_3.png)
+![475](../../assets/img/Metropolis-Hastings%20algorithm_image_3.png)
 
 图中蓝线是高斯分布，红线是目标分布，我们现在要利用高斯分布来得到目标分布。
 
-![475](../../assets/img/Metropolis-Hastings algorithm_image_4.png)
+![475](../../assets/img/Metropolis-Hastings%20algorithm_image_4.png)
 
 大致原理是，
 
@@ -109,4 +109,4 @@ $$
 
 具体步骤如下
 
-![500](../../assets/img/Metropolis-Hastings algorithm_image_5.png)
+![500](../../assets/img/Metropolis-Hastings%20algorithm_image_5.png)
